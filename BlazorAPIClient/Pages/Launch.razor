@@ -1,0 +1,32 @@
+@page "/launchesSpaceX"
+
+<h1>Typicode launch</h1>
+
+@if (launch == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Upcoming(y/n)</th>
+                <th>LaunchDateLocal</th>
+                <th>MissionName</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in launch)
+            {
+                <tr>
+                    <td>@forecast.Id</td>
+                    <td>@forecast.Upcoming</td>
+                    <td>@forecast.LaunchDateLocal</td>
+                    <td>@forecast.MissionName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

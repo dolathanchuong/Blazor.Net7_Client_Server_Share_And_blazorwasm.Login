@@ -1,0 +1,32 @@
+@page "/launches"
+
+<h1>Typicode launch</h1>
+
+@if (launches == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UserId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Completed(y/n)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in launches)
+            {
+                <tr>
+                    <td>@forecast.UserId</td>
+                    <td>@forecast.Id</td>
+                    <td>@forecast.Title</td>
+                    <td>@forecast.Completed</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

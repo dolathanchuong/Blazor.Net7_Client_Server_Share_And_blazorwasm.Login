@@ -1,0 +1,36 @@
+﻿@page "/fetchdataapi"
+
+<PageTitle>typicode todos</PageTitle>
+
+<h1>Typicode launch</h1>
+
+<p>This is launch data pulled back via REST API</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>UserId</th>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Completed(y/n)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.UserId</td>
+                    <td>@forecast.Id</td>
+                    <td>@forecast.Title</td>
+                    <td>@forecast.Completed</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
