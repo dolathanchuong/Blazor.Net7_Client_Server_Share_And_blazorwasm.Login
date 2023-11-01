@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X7cJs9p0TyS0iSIu2jElWPM/oLeXm8Yb392qTpdQPm2GkQaNmgN2GTEZ8PSwh7lMe2AfbEDzvGAKGMaHbzsVbQ==",
+  "dgSpecHash": "ohYp+VVr3gxteI8o5AhWcf/2y3v6jB3blXzxUk0SFI+i5KL+yyYESOY0+XgwZjOIVCE5V+hgjL/pAG6EhfnVgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",

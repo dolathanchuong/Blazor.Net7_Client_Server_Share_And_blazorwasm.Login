@@ -18,7 +18,11 @@ namespace JwtDemo.Server.Controllers
         {
             _userManager = userManager;
         }
-
+        /// <summary>
+        /// Link : https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.createasync?view=aspnetcore-7.0
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] RegisterModel model)
         {

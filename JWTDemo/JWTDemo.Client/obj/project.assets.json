@@ -2072,11 +2072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
       "projectName": "JWTDemo.Client",
-      "projectPath": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
+      "projectPath": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Client\\JWTDemo.Client.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Client\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -2098,8 +2098,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Share\\JWTDemo.Share.csproj": {
-              "projectPath": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Share\\JWTDemo.Share.csproj"
+            "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Share\\JWTDemo.Share.csproj": {
+              "projectPath": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Share\\JWTDemo.Share.csproj"
             }
           }
         }

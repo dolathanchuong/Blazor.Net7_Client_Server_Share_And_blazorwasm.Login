@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5R8GDGAo1ihfbCOSW27/ZqxjLczdjv12JM4VUXcwmTKmn7Q/Sat4t7Fgz8ktmMuHynmWDcYwpZmZ4jZ9OG7FcA==",
+  "dgSpecHash": "tXrqYYOnjxcZwgMJIHAC69UmcCk9Kurnlt/AmNREJTtUZqiQhgONGtLHP20bRTqLNPrZDhFnDuFzHFdmhG2C4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Platform Service Architecture\\JWTDemo\\JWTDemo.Server\\JWTDemo.Server.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Blazor.Net7_Client_Server_Share_And_blazorwasm.Login\\JWTDemo\\JWTDemo.Server\\JWTDemo.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
