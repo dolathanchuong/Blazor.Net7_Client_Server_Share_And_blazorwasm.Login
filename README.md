@@ -58,11 +58,10 @@
     - App.razor
     - Program.cs
 - +++ Package Install+++
-    - example: 
+    - example: (PowerShell run cmd)
     ```
     dotnet add package Microsoft.AspNetCore.Authorization
     ```
-        (PowerShell run cmd)
     - blazorwasm.Login.csproj
 # End blazorwasm.Login
 ```
