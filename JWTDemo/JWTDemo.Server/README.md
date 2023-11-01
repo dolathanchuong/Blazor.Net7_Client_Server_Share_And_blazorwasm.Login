@@ -4,6 +4,7 @@
     - JWTDemo.Server
         - appsettings.json
             - Code OLD:
+            ```
                 -   {
                         "Logging": {
                         "LogLevel": {
@@ -13,7 +14,9 @@
                         },
                         "AllowedHosts": "*"
                     }
+            ```
             - Code New:
+            ```
                 - {
                     "ConnectionStrings": {
                         "DefaultConnection": "Server=LAPTOP-H3UVPUPJ\\SQLEXPRESS;Database=JWTDemo; Trusted_Connection=True; TrustServerCertificate=true;"
@@ -30,6 +33,7 @@
                     },
                     "AllowedHosts": "*"
                 }
+            ```
 * CMD Migration DB from source to DB SQlServer:
     - Note(you execute : "dotnet tool update --global dotnet-ef" or "dotnet restore" ==> if you not migrations)
     - dotnet ef migrations add Initials -o Data/Migrations
