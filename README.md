@@ -108,7 +108,10 @@
     - App.razor
     - Program.cs
     - +++ Package Install+++
-    - example: dotnet add package Blazored.LocalStorage(PowerShell run cmd)
+    - example: (PowerShell run cmd)
+    ```
+    dotnet add package Blazored.LocalStorage
+    ```
     - JWTDemo.Client.csproj
 # Create Project JWTDemo.Client
 ```
@@ -134,7 +137,10 @@
     - appsettings.json
     - Program.cs
 - +++ Package Install+++
-    - example: dotnet add package Microsoft.AspNetCore.Authentication.jwtBearer(PowerShell run cmd)
+    - example: (PowerShell run cmd)
+    ```
+    dotnet add package Microsoft.AspNetCore.Authentication.jwtBearer
+    ```
     - JWTDemo.Server.csproj
 # Create Project JWTDemo.Client
 ```
@@ -144,7 +150,7 @@
 * JWTDemo.Share
 # Create Project JWTDemo.Share
 ```
-    cmd: dotnet new classlib -n JWTDemo.Share
+    dotnet new classlib -n JWTDemo.Share
 ```
 # End JWTDemo
 ```
@@ -195,7 +201,10 @@ Note: Client And Server Call Class Model From Share
     - App.razor
     - Program.cs
 - +++ Package Install+++
-    - example: dotnet add package Microsoft.AspNetCore.Components.WebAssembly(PowerShell run cmd)
+    - example: (PowerShell run cmd)
+    ```
+    dotnet add package Microsoft.AspNetCore.Components.WebAssembly
+    ```
     - BlazorAPIClient.csproj
 # End BlazorAPIClient
 ```
